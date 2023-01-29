@@ -1,0 +1,328 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body><img src="cheatsheet_archivos/IDSN-logo.png" alt="cognitiveclass.ai logo" width="200"><h2><span class="header-link octicon octicon-link"></span></h2><div>
+<b>Module 2 Cheatsheet: HTML5 Overview</b>
+</div><p></p><p></p><p></p><p></p><p></p><p></p><table>
+<tbody><tr>
+    <th width="17%">Element</th>
+    <th width="40%">Description</th>
+    <th width="43%">Example</th>
+</tr>
+
+<tr>
+    <td>
+        <code>&lt;!--&nbsp; --&gt;</code>
+    </td>
+    <td>
+This tag denotes a comment in HTML, which is not displayed by a browser but can be useful to hide and document code.
+    </td>
+    <td>
+        <code>&lt;!-- This is a comment --&gt;</code>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <code>&lt;!DOCTYPE html&gt;</code>
+    </td>
+    <td>
+All HTML documents must start with this declaration. It tells the 
+browser what document type to expect. Note that this element has no 
+ending tag.
+    </td>
+    <td>
+        <code><b>&lt;!DOCTYPE html&gt;</b></code><br>
+
+<p>&nbsp;<br>        <code>&lt;html&gt;</code><br></p>
+<p>&nbsp;<br>            <code>&lt;head&gt;</code><br></p>
+<p>&nbsp;&nbsp;&nbsp;<br>                <code>&lt;!--&nbsp;Metadata Here --&gt;</code><br></p>
+<pre class="prettyprint linenums prettyprinted" style="padding-right: 42px;"><ol class="formatted-line-numbers"><li>1</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/head&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block one-line"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-0">Copied!</span></button></pre>
+<p>&nbsp;<br>            <code>&lt;body&gt;</code><br></p>
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;!--&nbsp;Document Body Here --&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/body&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-1">Copied!</span></button></pre>
+<p>&nbsp;&nbsp;<br>        <code>&lt;/html&gt;</code><br>    </p></td>
+</tr>
+
+<tr>
+    <td>
+        <code>&lt;a href= “path”&gt;</code>
+    </td>
+    <td>
+This tag, called an “anchor tag” creates hyperlinks using the href 
+attribute. In place of path enter the URL or path name to the page you 
+want to link to.
+    </td>
+    <td>
+        <code>&lt;a href="https://www.ibm.com"&gt;IBM&lt;/a&gt;</code>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <code>&lt;body&gt;</code>
+    </td>
+    <td>
+Contains the contents of the HTML document. It should contain all other 
+tags besides the &lt;head&gt; element to display the body of the 
+document.
+    </td>
+    <td>
+        <code>&lt;!DOCTYPE html&gt;</code><br>
+
+<p>&nbsp;<br>        <code>&lt;html&gt;</code><br></p>
+<p>&nbsp;<br>            <code>&lt;head&gt;</code><br></p>
+<p>&nbsp;&nbsp;&nbsp;<br>                <code>&lt;!--&nbsp;Metadata Here --&gt;</code><br></p>
+<pre class="prettyprint linenums prettyprinted" style="padding-right: 42px;"><ol class="formatted-line-numbers"><li>1</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/head&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block one-line"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-2">Copied!</span></button></pre>
+<p>&nbsp;<br>            <code><b>&lt;body&gt;</b></code><br></p>
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;!--&nbsp;Document Body Here --&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">        </span><span class="tag">&lt;code&gt;&lt;b&gt;</span><span class="pln">&amp;lt;/body&amp;gt;</span><span class="tag">&lt;/b&gt;&lt;/code&gt;&lt;br/&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-3">Copied!</span></button></pre>
+<p>&nbsp;&nbsp;<br>        <code>&lt;/html&gt;</code><br>    </p></td>
+</tr>
+
+<tr>
+    <td>
+        <code>&lt;div&gt;</code>
+    </td>
+    <td>
+Often used to separate sections in the body of a document in order to style that content with CSS.
+    </td><td>
+        <code>&lt;div&gt;</code><br>
+
+<p>&nbsp;<br>        <code> This element has no particular semantic&nbsp;meaning but is often used in conjunction&nbsp;with CSS for styling purposes.&nbsp;</code><br></p>
+<p>&nbsp;<br>        <code>&lt;/div&gt;</code><br>    </p></td>
+</tr>
+
+<tr>
+    <td>
+        <code>&lt;h1&gt;</code>
+    </td>
+    <td>
+Adds a level 1 heading to the HTML document.
+    </td><td>
+        <code>&lt;h1&gt;Thomas J. Watson&lt;/h1&gt;</code>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <code>&lt;head&gt;</code>
+    </td>
+    <td>
+Contains metadata and should be placed after the &lt;html&gt; tag and before the &lt;body&gt; tag.
+    </td><td>
+        <code>&lt;!DOCTYPE html&gt;</code><br>
+
+<p>&nbsp;<br>        <code>&lt;html&gt;</code><br></p>
+<p>&nbsp;<br>            <code><b>&lt;head&gt;</b></code><br></p>
+<p>&nbsp;&nbsp;&nbsp;<br>                <code>&lt;!--&nbsp;Metadata Here --&gt;</code><br></p>
+<pre class="prettyprint linenums prettyprinted" style="padding-right: 42px;"><ol class="formatted-line-numbers"><li>1</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;&lt;b&gt;</span><span class="pln">&amp;lt;/head&amp;gt;</span><span class="tag">&lt;/b&gt;&lt;/code&gt;&lt;br/&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block one-line"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-4">Copied!</span></button></pre>
+<p>&nbsp;<br>            <code><b>&lt;body&gt;</b></code><br></p>
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;!--&nbsp;Document Body Here --&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">        </span><span class="tag">&lt;code&gt;&lt;b&gt;</span><span class="pln">&amp;lt;/body&amp;gt;</span><span class="tag">&lt;/b&gt;&lt;/code&gt;&lt;br/&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-5">Copied!</span></button></pre>
+<p>&nbsp;&nbsp;<br>        <code>&lt;/html&gt;</code><br>    </p></td>
+</tr>
+
+<tr>
+    <td>
+        <code>&lt;html&gt;</code>
+    </td>
+    <td>
+The root element of an HTML document. All other tags in the document should be contained in this tag.
+    </td><td>
+        <code>&lt;!DOCTYPE html&gt;</code><br>
+
+<p>&nbsp;<br>        <code><b>&lt;html&gt;</b></code><br></p>
+<p>&nbsp;<br>            <code><b>&lt;head&gt;</b></code><br></p>
+<p>&nbsp;&nbsp;&nbsp;<br>                <code>&lt;!--&nbsp;Metadata Here --&gt;</code><br></p>
+<pre class="prettyprint linenums prettyprinted" style="padding-right: 42px;"><ol class="formatted-line-numbers"><li>1</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;&lt;b&gt;</span><span class="pln">&amp;lt;/head&amp;gt;</span><span class="tag">&lt;/b&gt;&lt;/code&gt;&lt;br/&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block one-line"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-6">Copied!</span></button></pre>
+<p>&nbsp;<br>            <code><b>&lt;body&gt;</b></code><br></p>
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;!--&nbsp;Document Body Here --&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">        </span><span class="tag">&lt;code&gt;&lt;b&gt;</span><span class="pln">&amp;lt;/body&amp;gt;</span><span class="tag">&lt;/b&gt;&lt;/code&gt;&lt;br/&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-7">Copied!</span></button></pre>
+<p>&nbsp;&nbsp;<br>        <code><b>&lt;/html&gt;</b></code><br>    </p></td>
+</tr>
+
+<tr>
+    <td>
+        <code>&lt;img src=“path” width=“dim1” height=“dim2”&gt;</code>
+    </td>
+    <td>
+This tag is used to place an img.&nbsp;In place of path insert a URL or a
+ relative file path to the image location.&nbsp;Other optional 
+attributes include width and height of the image in pixels.
+    </td><td>
+        <code>&lt;img src=“https://upload.wikimedia.org/wikipedia/commons/&nbsp;
+7/7e/Thomas_J_Watson_Sr.jpg” width=“300” height=“300”&gt;</code>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <code>&lt;li&gt;</code>
+    </td>
+    <td>
+Element that creates bulleted line items in an ordered or unordered 
+list.&nbsp; Should be used in conjunction with the &lt;ul&gt; or 
+&lt;ol&gt; tags.
+    </td><td>
+        <code>&lt;ul&gt;</code><br>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;l1&amp;gt;Bullet point 1&amp;lt;l1&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;l1&amp;gt;Bullet point 2&amp;lt;l1&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L3"><code></code></li><li class="L4"><code><span class="pln">    </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/ul&amp;gt;</span><span class="tag">&lt;/code&gt;</span></code></li><li class="L5"><code><span class="tag">&lt;/td&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-8">Copied!</span></button></pre>
+</td></tr>
+
+<tr>
+    <td>
+        <code>&lt;link&gt;</code>
+    </td>
+    <td>
+Used to link an external document, such as a CSS file, to an HTML document.
+    </td><td>
+        <code>&lt;head&gt;</code><br>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;link rel=“stylesheet” href=“styles.css”&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/head&amp;gt;</span><span class="tag">&lt;/code&gt;</span></code></li><li class="L3"><code><span class="tag">&lt;/td&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-9">Copied!</span></button></pre>
+</td></tr>
+
+<tr>
+    <td>
+        <code>&lt;meta&gt;</code>
+    </td>
+    <td>
+Used to provide metadata about the HTML document.
+    </td><td>
+        <code>&lt;head&gt;</code><br>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;meta name=“author” content=“Christopher Moore”&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/head&amp;gt;</span><span class="tag">&lt;/code&gt;</span></code></li><li class="L3"><code><span class="tag">&lt;/td&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-10">Copied!</span></button></pre>
+</td></tr>
+
+<tr>
+    <td>
+        <code>&lt;ol&gt;</code>
+    </td>
+    <td>
+Element that creates an ordered list using numbers. Should be used in conjunction with the &lt;li&gt; tag.
+    </td><td>
+        <code>&lt;ol&gt;</code><br>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;l1&amp;gt;Numbered bullet point 1&amp;lt;l1&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;l1&amp;gt;Numbered bullet point 2&amp;lt;l1&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L3"><code></code></li><li class="L4"><code><span class="pln">    </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/ol&amp;gt;</span><span class="tag">&lt;/code&gt;</span></code></li><li class="L5"><code><span class="tag">&lt;/td&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-11">Copied!</span></button></pre>
+</td></tr>
+
+<tr>
+    <td>
+        <code>&lt;p&gt;</code>
+    </td>
+    <td>
+This tag is used to identify a paragraph.&nbsp;It places a line break after the text it is enclosed in.
+    </td><td>
+        <code>&lt;p&gt;This is a paragraph of text. It can be as short or as long as needed.&lt;/p&gt;</code>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <code>&lt;script&gt;</code>
+    </td>
+    <td>
+Used to embed JavaScript in an HTML document.
+    </td><td>
+        <code>&lt;script&gt;</code><br>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">alert(“Hello World”);</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/script&amp;gt;</span><span class="tag">&lt;/code&gt;</span></code></li><li class="L3"><code><span class="tag">&lt;/td&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-12">Copied!</span></button></pre>
+</td></tr>
+
+<tr>
+    <td>
+        <code>&lt;table&gt;</code>
+    </td>
+    <td>
+This tag is used to denote a table. Should be used with &lt;tr&gt; 
+(defines a table row) and &lt;td&gt; (defines a table cell within a row)
+ tags.&nbsp;The &lt;th&gt; tag can also be used to define the table 
+header row.
+    </td><td>
+        <code><b>&lt;table&gt;</b></code><br>
+
+<p>&nbsp;&nbsp;&nbsp;<br>            <code>&lt;tr&gt;</code><br></p>
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li><li>14</li><li>15</li><li>16</li><li>17</li><li>18</li><li>19</li><li>20</li><li>21</li><li>22</li><li>23</li><li>24</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;th&amp;gt;Header cell 1&amp;lt;/th&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;th&amp;gt;Header cell 2&amp;lt;/th&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L3"><code></code></li><li class="L4"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L5"><code></code></li><li class="L6"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L7"><code></code></li><li class="L8"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;First row first cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L9"><code></code></li><li class="L0"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;First row second cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L3"><code></code></li><li class="L4"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L5"><code></code></li><li class="L6"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;Second row first cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L7"><code></code></li><li class="L8"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;Second row second cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L9"><code></code></li><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;code&gt;&lt;b&gt;</span><span class="pln">&amp;lt;/table&amp;gt;</span><span class="tag">&lt;/b&gt;&lt;/code&gt;</span></code></li><li class="L3"><code><span class="tag">&lt;/td&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-13">Copied!</span></button></pre>
+</td></tr>
+
+<tr>
+    <td>
+        <code>&lt;td&gt;</code>
+    </td>
+    <td>
+Denotes a cell within a row, within a table.
+    </td><td>
+        <code><b>&lt;table&gt;</b></code><br>
+
+<p>&nbsp;&nbsp;&nbsp;<br>            <code>&lt;tr&gt;</code><br></p>
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li><li>14</li><li>15</li><li>16</li><li>17</li><li>18</li><li>19</li><li>20</li><li>21</li><li>22</li><li>23</li><li>24</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;th&amp;gt;Header cell 1&amp;lt;/th&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;th&amp;gt;Header cell 2&amp;lt;/th&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L3"><code></code></li><li class="L4"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L5"><code></code></li><li class="L6"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L7"><code></code></li><li class="L8"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;First row first cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L9"><code></code></li><li class="L0"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;First row second cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L3"><code></code></li><li class="L4"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L5"><code></code></li><li class="L6"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;Second row first cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L7"><code></code></li><li class="L8"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;Second row second cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L9"><code></code></li><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;code&gt;&lt;b&gt;</span><span class="pln">&amp;lt;/table&amp;gt;</span><span class="tag">&lt;/b&gt;&lt;/code&gt;</span></code></li><li class="L3"><code><span class="tag">&lt;/td&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-14">Copied!</span></button></pre>
+</td></tr>
+
+<tr>
+    <td>
+        <code>&lt;th&gt;</code>
+    </td>
+    <td>
+Denotes the header cells within a row within a table.
+    </td><td>
+        <code><b>&lt;table&gt;</b></code><br>
+
+<p>&nbsp;&nbsp;&nbsp;<br>            <code>&lt;tr&gt;</code><br></p>
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li><li>14</li><li>15</li><li>16</li><li>17</li><li>18</li><li>19</li><li>20</li><li>21</li><li>22</li><li>23</li><li>24</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;th&amp;gt;Header cell 1&amp;lt;/th&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;th&amp;gt;Header cell 2&amp;lt;/th&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L3"><code></code></li><li class="L4"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L5"><code></code></li><li class="L6"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L7"><code></code></li><li class="L8"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;First row first cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L9"><code></code></li><li class="L0"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;First row second cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L3"><code></code></li><li class="L4"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L5"><code></code></li><li class="L6"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;Second row first cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L7"><code></code></li><li class="L8"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;Second row second cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L9"><code></code></li><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;code&gt;&lt;b&gt;</span><span class="pln">&amp;lt;/table&amp;gt;</span><span class="tag">&lt;/b&gt;&lt;/code&gt;</span></code></li><li class="L3"><code><span class="tag">&lt;/td&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-15">Copied!</span></button></pre>
+</td></tr>
+
+<tr>
+    <td>
+        <code>&lt;title&gt;</code>
+    </td>
+    <td>
+Defines the title of the HTML document displayed in the browser’s title 
+bar and tabs. It is required in all HTML documents. It should be 
+contained in the &lt;head&gt; tag.
+    </td>
+    <td>
+        <code><b>&lt;!DOCTYPE html&gt;</b></code><br>
+
+<p>&nbsp;<br>        <code>&lt;html&gt;</code><br></p>
+<p>&nbsp;<br>            <code>&lt;head&gt;</code><br></p>
+<p>&nbsp;&nbsp;&nbsp;<br>                <code>&lt;title&gt;Document Title&lt;/title&gt;</code><br></p>
+<pre class="prettyprint linenums prettyprinted" style="padding-right: 42px;"><ol class="formatted-line-numbers"><li>1</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/head&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block one-line"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-16">Copied!</span></button></pre>
+<p>&nbsp;<br>            <code>&lt;body&gt;</code><br></p>
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;!--&nbsp;Document Body Here --&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/body&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-17">Copied!</span></button></pre>
+<p>&nbsp;&nbsp;<br>        <code>&lt;/html&gt;</code><br>    </p></td>
+</tr>
+
+<tr>
+    <td>
+        <code>&lt;tr&gt;</code>
+    </td>
+    <td>
+Denotes a row within a table.
+    </td><td>
+        <code><b>&lt;table&gt;</b></code><br>
+
+<p>&nbsp;&nbsp;&nbsp;<br>            <code>&lt;tr&gt;</code><br></p>
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li><li>14</li><li>15</li><li>16</li><li>17</li><li>18</li><li>19</li><li>20</li><li>21</li><li>22</li><li>23</li><li>24</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;th&amp;gt;Header cell 1&amp;lt;/th&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;th&amp;gt;Header cell 2&amp;lt;/th&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L3"><code></code></li><li class="L4"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L5"><code></code></li><li class="L6"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L7"><code></code></li><li class="L8"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;First row first cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L9"><code></code></li><li class="L0"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;First row second cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L3"><code></code></li><li class="L4"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L5"><code></code></li><li class="L6"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;Second row first cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L7"><code></code></li><li class="L8"><code><span class="pln">            </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;td&amp;gt;Second row second cell&amp;lt;/td&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L9"><code></code></li><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/tr&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">    </span><span class="tag">&lt;code&gt;&lt;b&gt;</span><span class="pln">&amp;lt;/table&amp;gt;</span><span class="tag">&lt;/b&gt;&lt;/code&gt;</span></code></li><li class="L3"><code><span class="tag">&lt;/td&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-18">Copied!</span></button></pre>
+</td></tr>
+
+<tr>
+    <td>
+        <code>&lt;ul&gt;</code>
+    </td>
+    <td>
+Element that creates an unordered list using bullets.&nbsp;Should be used in conjunction with the &lt;li&gt; tag.
+    </td><td>
+        <code>&lt;ul&gt;</code><br>
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="formatted-line-numbers"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li></ol><ol class="linenums"><li class="L0"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;l1&amp;gt;Bullet point 1&amp;lt;l1&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L1"><code></code></li><li class="L2"><code><span class="pln">        </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;l1&amp;gt;Bullet point 2&amp;lt;l1&amp;gt;</span><span class="tag">&lt;/code&gt;&lt;br/&gt;</span></code></li><li class="L3"><code></code></li><li class="L4"><code><span class="pln">    </span><span class="tag">&lt;code&gt;</span><span class="pln">&amp;lt;/ul&amp;gt;</span><span class="tag">&lt;/code&gt;</span></code></li><li class="L5"><code><span class="tag">&lt;/td&gt;</span></code></li></ol><button title="Copy" class="action-code-block copy-code-block multiple-lines"><i class="fa fa-copy" aria-hidden="true"></i><span class="popuptext" id="md-code-block-copy-19">Copied!</span></button></pre>
+</td></tr>
+</tbody></table><h2><span class="header-link octicon octicon-link"></span>Changelog</h2><table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Version</th>
+<th>Changed by</th>
+<th>Change Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>18-10-2022</td>
+<td>1.0</td>
+<td>Michelle Saltoun</td>
+<td>Initial version created</td>
+</tr>
+</tbody></table><h2><span class="header-link octicon octicon-link"></span></h2><h3> © IBM Corporation 2022. All rights reserved. </h3><h3></h3></body></html>
