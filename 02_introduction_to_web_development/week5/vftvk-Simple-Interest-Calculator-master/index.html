@@ -12,11 +12,10 @@
             <h1>Simple Interest Calculator</h1>
 
             Amount <input type="number"  id="principal">  <br/>
-            Rate <input type="range" id="rate" min="1", max="20" value="10.25" :w
-            step="0.25"> 
+            Rate <input type="range" id="rate" min="1", max="20" value="10.25" step="0.25" onchange="updateRate()">
                 <span id="rate_val">
                     10.25
-                </span>%<br/>
+                </span>%
             <br/>
             No. of Years 
             <input type="number" id="years" list="all_years">
@@ -28,6 +27,11 @@
             Interest : <span id="result"></span><br>
 
             <button onclick="compute()">Compute Interest</button>
+            <span id="result">
+            </span>
         </div>
+        <footer>
+            &#169; This Calculator belongs to Matías A. Alfonso.
+        </footer>
     </body>
 </html>
