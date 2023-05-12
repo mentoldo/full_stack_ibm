@@ -23,9 +23,11 @@ body {
   text-decoration:none;
 }
 
-.topmenu:hover {Z
+.topmenu:hover {
   color: white;
   /* Add the styles here */
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 .topdiv {
